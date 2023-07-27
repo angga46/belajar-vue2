@@ -1,15 +1,18 @@
 <template>
   <div>
-    <navbar></navbar>
-    <corousel></corousel> <br>
-    <card></card>
-    <footer></footer>
+    <navbar-component></navbar-component>
+    <head-component></head-component>
+    <article-component style="padding-top: 20px;"></article-component>
+    <footer-component></footer-component>
   </div>
-</template>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+</template>
 
 <script setup>
-    import Navbar from './components/navbar.vue'
-    import Corousel from './components/corousel.vue'
-    import Card from './components/Card.vue'
-    import Footer from './components/Footer.vue'
+import 'flowbite/dist/flowbite'
+import ArticleComponent from './components/ArticleComponent.vue'
+import HeadComponent from './components/HeadComponent.vue'
+import NavbarComponent from './components/NavbarComponent.vue';
+import FooterComponent from './components/FooterComponent.vue'
 </script>
+
+<style></style>
